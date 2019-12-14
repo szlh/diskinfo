@@ -242,7 +242,8 @@ func apiCaller(c *gc.C, check func(request string, arg, result interface{}) erro
 		c.Check(facade, gc.Equals, "Agent")
 		c.Check(version, gc.Equals, 0) // because of BestFacadeVersion test infrastructure
 		c.Check(id, gc.Equals, "")
-		return check(request, arg, result)
+		//return check(request, arg, result)
+		retu check(request, arg, result)
 	})
 }
 
