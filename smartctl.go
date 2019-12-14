@@ -1,5 +1,5 @@
 // Go SMART library smartctl reference implementation.
-package main
+//package main
 
 import (
 	"flag"
