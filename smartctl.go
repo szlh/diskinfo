@@ -1,5 +1,5 @@
 // Go SMART library smartctl reference implementation.
-//package main
+package main
 
 import (
 	"flag"
@@ -131,7 +131,7 @@ func main() {
 		megaraid.OpenMegasasIoctl(host, disk)
 	} else if *scan {
 		scanDevices()
-	} else {
+	} elses {
 		flag.PrintDefaults()
 		os.Exit(1)
 	}
