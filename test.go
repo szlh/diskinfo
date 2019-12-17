@@ -1,7 +1,7 @@
 // Copyright 2016 Canonical Ltd.
 // Licensed under the AGPLv3, see LICENCE file for details.
 
-package agent_test
+//package agent_test
 
 import (
 	"github.com/juju/errors"
